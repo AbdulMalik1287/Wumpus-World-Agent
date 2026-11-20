@@ -30,17 +30,6 @@ jupyter notebook Wumpus_World_Agent.ipynb
 Run all cells. The notebook is saved with its outputs, so the results are visible on GitHub
 without running it.
 
-## How the work is split
-
-Every cell in the notebook is tagged with its part (`# [P1]` ... `# [P4]`).
-
-| Part | Covers |
-|---|---|
-| P1 | World grid, percept generator, propositional symbols and connectives, truth tables |
-| P2 | CNF converter, DPLL inference engine (entailment), knowledge base and world rules |
-| P3 | Reasoner (tell percepts, ask safety), planner (BFS over safe cells), agent loop |
-| P4 | Demos, path display and plot, step-by-step mode, random-world testing |
-
 ## How it works
 
 **World and percepts.** The world is a dict holding the grid size, the Wumpus cell, the pit
